@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Lobster');
+img.sheepy{
+	margin-top: 0px;
+	width: 225px;
+		height: 225px;
+		border-radius: 500px;
+		border: 5px solid rgba(255, 255, 255, 0.1);
+		-webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.55);
+		   -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.55);
+		box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.55);
+		-webkit-transition: all 0.1s ease-in-out;
+			    transition: all 0.1s ease-in-out;
+	}
+
+img.sheepy:hover{
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.55);
+	   -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.55);
+			box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.55);
+}
+
+h1.sheepy{
+	color: #FFF;
+	font-family: 'Lobster';
+	font-size: 60px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+	margin-top: 20px;
+}
+#connect-discord {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(0, 116, 217, 0.8);
+	border-radius: 7px !important;
+	border: none !important;
+	box-shadow: 4px 4px 1px rgba(0, 116, 217, 0.5) !important;
+	margin-top: 75px;
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 25px;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.bot-img{
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);}    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+
+#connect-discord:hover{
+	background-color: rgba(255,255,255,0.4);
+}
+
+h2.tagline{
+	color: #FFF;
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 25px;
+	margin-top: 35px;
+}
+
+.sh-page{
+    width: 100%;
+    display: block;
+    margin-left: -250px;
+}
